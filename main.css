@@ -1,3 +1,40 @@
 h2{
   text-align: center;  
 }
+#start{
+  color:rgb(66, 109, 109);
+  background-color:rgb(255, 255, 255);
+  border-radius: 4px;
+  border-color:teal;
+  font-size: 20px;
+  margin: 2px 2px;
+  padding: 10px 30px;
+}
+#changeList{
+    color:rgb(66, 109, 109);
+    background-color:rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color:teal;
+    font-size: 20px;
+    margin: 2px 2px;
+    padding: 10px 30px;
+  }
+#changedList {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:teal;
+    text-shadow: 2px 1px 0px #163b49;
+}
+#getList{
+    font-family:cursive;
+    font-size:20px;
+    color:palevioletred;
+}
+#gradA{
+    height: 200px;
+    background-image: linear-gradient(to right, #99ccff 0%, #669999 100%);
+}
+#gradB{
+    height: 200px;
+    background-image: linear-gradient(to right, #ffffcc 0%, #ff99cc 100%);
+}
