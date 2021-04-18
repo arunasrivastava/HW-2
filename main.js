@@ -26,7 +26,7 @@ function getUserWords(){
 function changeWords(){
     document.getElementById("getList").style.display = "none";
     document.getElementById("changedList").style.display = "block";
-
+    //Using array map capabilities 
     let storeNewWords = storeWords.map(function(oneWord){
         return oneWord.charAt(oneWord.length - 1) + oneWord.substring(1, oneWord.length - 1) + oneWord.charAt(0);
     });
